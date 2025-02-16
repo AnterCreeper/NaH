@@ -5,6 +5,10 @@
 This Project implemented full FLAC Decoder Logic, including Sodium 16bit RISC core, Hydrogen MAC Accelerator, and some perpherials.Verified with Custom Platform.  
 该项目实现了完整的FLAC解码逻辑，包含16位钠RISC核，氢加速器，以及一些外设。已经过定制平台的验证。
 
+### Block Diagram
+
+![SoC](https://github.com/AnterCreeper/NaH/blob/main/doc/soc.jpg?raw=true)
+
 ### Reference
 1. https://www.ietf.org/archive/id/draft-ietf-cellar-flac-12.html
 2. https://www.rfc-editor.org/rfc/rfc9639.html
