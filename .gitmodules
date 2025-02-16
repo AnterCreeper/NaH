@@ -1,0 +1,3 @@
+[submodule "firmware/lossywav-for-linux"]
+	path = firmware/lossywav-for-linux
+	url = https://github.com/Sound-Linux-More/lossywav-for-linux
