@@ -266,7 +266,7 @@ int decodesubframe(int blocksize, int samplebits, int channum, struct bitstream*
 
 	if (wasted) {
 		while(bitstream_readbits(1, inp) == 0) {
-		//assume that there are not a lot of wasted bits, as readbits function is inefficient.
+		//assume that there are not a lot of wasted bits, since readbits function is inefficient.
 			wasted++;
 		}
 	}
